@@ -15,7 +15,7 @@
 
 ## Crea security groups que permitan el tráfico sobre el puerto 80 para todas las IPs, y sólo para la tuya en el puerto 22 (opcional)
 
-## Crea un recurso ![key pair](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/key_pair.html) para poder acceder a una EC2
+## Crea un recurso [key pair](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/key_pair.html) para poder acceder a una EC2
 
 ## Crea una instancia que se despliegue en la subnet que has creado
 
@@ -30,7 +30,7 @@
 
 - Para poder ver algo via HTTP, debes tener algo que sirva en el puerto 80. Conectate via SSH y despliega un NGINX container via docker.
 
-## Refactoriza tu código para que use el ![VPC Module](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)
+## Refactoriza tu código para que use el [VPC Module](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)
 
 **Notas**:
 Los puntos 1, 2, 3, 4 son gratuitos, a partir del 5, empezamos a incurrir en gastos. Recuerda siempre usar terraform destroy para no incurrir en gastos innecesarios.
