@@ -38,3 +38,5 @@
 
 **Notas**:
 Los puntos 1, 2, 3, 4 son gratuitos, a partir del 5, empezamos a incurrir en gastos. Recuerda siempre usar terraform destroy para no incurrir en gastos innecesarios.
+
+**Nota**: Ni una sola tilde te deja poner en las descripciones, muy chulo Terraform pero a la RAE no le gusta.
