@@ -16,7 +16,7 @@ cp ../terraform.tfvars.template terraform.tfvars
 ```
 
 | Variable | Descripción |
-|---|---|---|
+|---|---|
 | `aws_access_key` | AWS Access Key ID |
 | `aws_secret_key` | AWS Secret Access Key |
 | `my_ip` | Tu IP pública en CIDR `/32` |
