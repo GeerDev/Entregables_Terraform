@@ -6,7 +6,7 @@ Este directorio contiene la solución a los puntos 1–7 del entregable. Se desp
 
 ## Prerrequisito: permisos IAM en AWS
 
-Antes de lanzar cualquier `terraform apply`, el usuario IAM cuyas credenciales uses debe tener permisos para crear recursos en AWS. Si no los tiene, Terraform fallará con un error como este:
+Antes de lanzar cualquier `terraform apply`, el usuario IAM cuyas credenciales uses debe tener permisos para crear recursos en AWS.
 
 1. Entra en **AWS Console → IAM → Users → `<tu usuario>` → Permissions**.
 2. Pulsa **Add permissions → Attach policies directly**.
@@ -29,7 +29,7 @@ cp ../terraform.tfvars.template terraform.tfvars
 ```
 
 | Variable | Descripción |
-|---|---|---|
+|---|---|
 | `aws_access_key` | AWS Access Key ID |
 | `aws_secret_key` | AWS Secret Access Key |
 | `my_ip` | Tu IP pública en CIDR `/32` |
