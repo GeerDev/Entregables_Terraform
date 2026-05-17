@@ -1,0 +1,20 @@
+# Credenciales y variables sensibles
+terraform.tfvars
+*.tfvars
+
+# Estado de Terraform (puede contener valores sensibles en texto plano)
+*.tfstate
+*.tfstate.backup
+.terraform.tfstate.lock.info
+
+# Directorio de plugins y módulos descargados
+.terraform/
+
+# Ficheros de override (uso local)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Fichero de variables de entorno local
+.env
