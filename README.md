@@ -40,3 +40,10 @@
 Los puntos 1, 2, 3, 4 son gratuitos, a partir del 5, empezamos a incurrir en gastos. Recuerda siempre usar terraform destroy para no incurrir en gastos innecesarios.
 
 **Nota**: Ni una sola tilde te deja poner en las descripciones, muy chulo Terraform pero a la RAE no le gusta.
+
+# Corrección
+
+Muy buen trabajo.
+
+- La documentación de las dos partes (puntos 1 al 7, y refactorización para usar el VPC module) es muy completa, con capturas de pantalla en los puntos más necesarios (acceso a la instancia a través de la IP pública).
+- La organización del código me parece muy acertada, haciendo uso de los ficheros auxiliares outputs.tf, variables.tf y providers.tf.
